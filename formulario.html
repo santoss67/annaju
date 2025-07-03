@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário do Motorista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Dados do Motorista</h1></header>
+  <main>
+    <form id="formMotorista">
+      <input type="hidden" id="veiculoSelecionado">
+      <label>Nome:</label>
+      <input type="text" id="motoristaNome" required><br>
+      <label>CNH:</label>
+      <input type="text" id="motoristaCNH" required><br>
+      <button type="submit">Finalizar Pedido</button>
+    </form>
+    <p id="confirmMsg"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

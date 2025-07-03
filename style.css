@@ -1,0 +1,33 @@
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: #FFF9C4; /* Amarelo clarinho */
+  }
+  header {
+    position: fixed;
+    top:0;
+    width:100%;
+    padding:15px;
+    background: #2196F3; /* Azul */
+    color:white;
+    text-align:center;
+    z-index:100;
+  }
+  main {
+    padding:100px 20px 20px;
+  }
+  .veiculo {
+    display:inline-block;
+    margin:10px;
+    text-align:center;
+    cursor:pointer;
+  }
+  .veiculo img {
+    width:200px;
+    height:120px;
+    display:block;
+  }
+  label {display:block; margin-top:10px;}
+  input {padding:5px; width:200px;}
+  button {margin-top:15px; padding:10px 20px;}
+  
